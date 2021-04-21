@@ -3,9 +3,8 @@
   "version": "0.0.1-1",
   "main": "dist/index.js",
   "author": "Rune Finstad Halvorsen",
-  "repository": {
-    "url": "https://github.com/runeh/guess-json-shape"
-  },
+  "repository": "github:runeh/guess-json-shape",
+  "homepage": "https://github.com/runeh/guess-json-shape#readme",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
