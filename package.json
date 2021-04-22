@@ -15,6 +15,10 @@
     "yarn": true,
     "branch": "main"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runeh/guess-json-shape.git"
+  },
   "devDependencies": {
     "@types/jest": "~26.0.22",
     "@types/node": "~14.14.37",
