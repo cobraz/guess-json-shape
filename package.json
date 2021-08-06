@@ -1,19 +1,21 @@
 {
   "name": "guess-json-shape",
   "version": "0.0.1-3",
-  "main": "dist/index.js",
-  "author": "Rune Finstad Halvorsen",
-  "repository": "github:runeh/guess-json-shape",
   "homepage": "https://github.com/runeh/guess-json-shape#readme",
+  "repository": "github:cobraz/guess-json-shape",
   "license": "MIT",
+  "author": "Rune Finstad Halvorsen",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "release": "np"
   },
-  "np": {
-    "yarn": true,
-    "branch": "main"
+  "dependencies": {
+    "hasha": "^5.2.2",
+    "ramda": "^0.27.1",
+    "safe-stable-stringify": "^1.1.1",
+    "ts-invariant": "^0.7.3"
   },
   "devDependencies": {
     "@types/jest": "~26.0.22",
@@ -33,10 +35,8 @@
     "ts-jest": "^26.5.4",
     "typescript": "^4.2.3"
   },
-  "dependencies": {
-    "hasha": "^5.2.2",
-    "ramda": "^0.27.1",
-    "safe-stable-stringify": "^1.1.1",
-    "ts-invariant": "^0.7.3"
+  "np": {
+    "yarn": true,
+    "branch": "main"
   }
 }
